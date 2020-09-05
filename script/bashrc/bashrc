@@ -1,0 +1,9 @@
+# ------------------------------------------------------------
+# set alias
+# ------------------------------------------------------------
+alias ll='ls -alhtA --color=auto --time-style=long-iso'
+alias grep='grep --color=auto'
+
+HISTTIMEFORMAT="%Y-%m-%d_%H:%M:%S "
+export HISTTIMEFORMAT
+alias vi="vim"

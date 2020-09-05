@@ -1,0 +1,5 @@
+# DDL
+CREATE DATABASE grafana
+
+# DML
+# CONTEXT-DATABASE: grafana

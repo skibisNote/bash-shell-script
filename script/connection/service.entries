@@ -1,0 +1,14 @@
+# ------------------------------------------------------------
+# option:environment:descr:connectUserId:connectHost:connectPort:keyFileLocation(PEM)
+# ------------------------------------------------------------
+# option: connection option key (ex. 101)
+# enviroment: classification system (PRD, QA, DEVELOPMENT)
+# descr: connection menu descr
+# connectUserId: connection user id
+# connectHost: IP or Hostname of remote system
+# connectPort: connection port number (default: 22)
+# keyFileLocation: PEM key file location
+# ------------------------------------------------------------
+K101:PRD:[KIC] prd-was-01c - skibis:skibis:???.???.???.???:??:~/.ssh/key.pem
+K201:STG:[KIC] stg-was-01c - skibis:skibis:???.???.???.???:??:~/.ssh/key.pem
+K301:DEV:[KIC] dev-was-01c - skibis:skibis:???.???.???.???:??:~/.ssh/key.pem
